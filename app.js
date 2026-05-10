@@ -10,6 +10,12 @@ btnGuardar.addEventListener("click", () => {
 
     productos.push(inputProducto.value);
 
-    console.log(productos);
+    listaProductos.innerHTML = "";
+
+    productos.forEach((producto) => {
+
+        listaProductos.innerHTML += `<li>${producto}</li>`;
+
+    });
 
 });
