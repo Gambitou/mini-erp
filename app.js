@@ -10,4 +10,3 @@ btnGuardar.addEventListener("click", () => {
     console.log(productos);
 
 });
-//añssñs
