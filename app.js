@@ -1,6 +1,9 @@
 const inputProducto = document.getElementById("inputProducto");
 
 const btnGuardar = document.getElementById("btnGuardar");
+
+const listaProductos = document.getElementById("listaProductos");
+
 let productos = [];
 
 btnGuardar.addEventListener("click", () => {
